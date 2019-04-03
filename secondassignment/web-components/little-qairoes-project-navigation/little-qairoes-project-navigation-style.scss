@@ -1,0 +1,18 @@
+//
+
+@import 'styles/variables';
+
+.little-qairoes-project-navigation-header {
+  .little-qairoes-project-navigation-item {
+    color: $gray-dark;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.little-qairoes-project-navigation-item {
+  &.iron-selected {
+    font-weight: bold;
+  }
+}
