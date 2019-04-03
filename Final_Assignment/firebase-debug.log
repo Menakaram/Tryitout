@@ -1,0 +1,227 @@
+[debug] [2019-04-02T19:58:16.367Z] ----------------------------------------------------------------------
+[debug] [2019-04-02T19:58:16.373Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-02T19:58:16.374Z] CLI Version:   6.5.0
+[debug] [2019-04-02T19:58:16.374Z] Platform:      linux
+[debug] [2019-04-02T19:58:16.374Z] Node Version:  v11.8.0
+[debug] [2019-04-02T19:58:16.552Z] Time:          Wed Apr 03 2019 01:28:16 GMT+0530 (India Standard Time)
+[debug] [2019-04-02T19:58:16.552Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-02T19:58:16.681Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-02T19:58:16.682Z] > authorizing via signed-in user
+[debug] [2019-04-02T19:58:16.682Z] [iam] checking project final-assignment-ba926 for permissions ["firebase.projects.get"]
+[debug] [2019-04-02T19:58:16.686Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-02T19:58:16.687Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-02T19:58:19.391Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T19:58:19.455Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926:testIamPermissions  
+
+[debug] [2019-04-02T19:58:21.225Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T19:58:21.230Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926  
+ 
+[debug] [2019-04-02T19:58:22.851Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/menaka/Final_Assignment'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-02T19:58:28.626Z] Fetching environment
+[debug] [2019-04-02T19:58:28.664Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436:getServerAppConfig  
+ 
+[debug] [2019-04-02T19:58:28.666Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-02T19:58:31.152Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T19:58:31.153Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-02T19:58:31.414Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[warn] ⚠  functions: Error from emulator. Error: Timeout waiting for emulator start
+[debug] [2019-04-02T19:58:51.106Z] Error: Timeout waiting for emulator start
+    at client.testConnection.catch (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:219:17)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[debug] [2019-04-02T20:58:31.129Z] ----------------------------------------------------------------------
+[debug] [2019-04-02T20:58:31.136Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-02T20:58:31.136Z] CLI Version:   6.5.0
+[debug] [2019-04-02T20:58:31.137Z] Platform:      linux
+[debug] [2019-04-02T20:58:31.137Z] Node Version:  v11.8.0
+[debug] [2019-04-02T20:58:31.212Z] Time:          Wed Apr 03 2019 02:28:31 GMT+0530 (India Standard Time)
+[debug] [2019-04-02T20:58:31.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-02T20:58:31.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-02T20:58:31.306Z] > authorizing via signed-in user
+[debug] [2019-04-02T20:58:31.307Z] [iam] checking project final-assignment-ba926 for permissions ["firebase.projects.get"]
+[debug] [2019-04-02T20:58:31.310Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-02T20:58:31.311Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-02T20:58:35.693Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T20:58:35.737Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926:testIamPermissions  
+
+[debug] [2019-04-02T20:58:37.461Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T20:58:37.465Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926  
+ 
+[debug] [2019-04-02T20:58:39.025Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/menaka/Final_Assignment'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-02T20:58:44.634Z] Fetching environment
+[debug] [2019-04-02T20:58:44.650Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436:getServerAppConfig  
+ 
+[debug] [2019-04-02T20:58:44.652Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-02T20:58:47.423Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T20:58:47.425Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-02T20:58:48.255Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-02T20:58:54.727Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2019-04-02T21:42:47.786Z] ----------------------------------------------------------------------
+[debug] [2019-04-02T21:42:47.791Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-02T21:42:47.792Z] CLI Version:   6.5.0
+[debug] [2019-04-02T21:42:47.792Z] Platform:      linux
+[debug] [2019-04-02T21:42:47.792Z] Node Version:  v11.8.0
+[debug] [2019-04-02T21:42:47.902Z] Time:          Wed Apr 03 2019 03:12:47 GMT+0530 (India Standard Time)
+[debug] [2019-04-02T21:42:47.902Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-02T21:42:48.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-02T21:42:48.033Z] > authorizing via signed-in user
+[debug] [2019-04-02T21:42:48.034Z] [iam] checking project final-assignment-ba926 for permissions ["firebase.projects.get"]
+[debug] [2019-04-02T21:42:48.039Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926:testIamPermissions  
+
+[debug] [2019-04-02T21:42:51.289Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T21:42:51.294Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926  
+ 
+[debug] [2019-04-02T21:42:52.836Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/menaka/Final_Assignment'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-02T21:43:00.878Z] Fetching environment
+[debug] [2019-04-02T21:43:00.915Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436:getServerAppConfig  
+ 
+[debug] [2019-04-02T21:43:00.918Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-02T21:43:04.658Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-02T21:43:04.659Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-02T21:43:04.873Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[warn] ⚠  functions: Error from emulator. Error: Timeout waiting for emulator start
+[debug] [2019-04-02T21:43:24.614Z] Error: Timeout waiting for emulator start
+    at client.testConnection.catch (/usr/local/lib/node_modules/firebase-tools/node_modules/@google-cloud/functions-emulator/src/cli/controller.js:219:17)
+    at processTicksAndRejections (internal/process/next_tick.js:81:5)
+[debug] [2019-04-03T03:59:21.353Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T03:59:21.358Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-03T03:59:21.358Z] CLI Version:   6.5.0
+[debug] [2019-04-03T03:59:21.358Z] Platform:      linux
+[debug] [2019-04-03T03:59:21.358Z] Node Version:  v11.8.0
+[debug] [2019-04-03T03:59:21.435Z] Time:          Wed Apr 03 2019 09:29:21 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T03:59:21.435Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T03:59:21.531Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T03:59:21.531Z] > authorizing via signed-in user
+[debug] [2019-04-03T03:59:21.532Z] [iam] checking project final-assignment-ba926 for permissions ["firebase.projects.get"]
+[debug] [2019-04-03T03:59:21.535Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-03T03:59:21.536Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-03T03:59:27.893Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T03:59:27.943Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926:testIamPermissions  
+
+[debug] [2019-04-03T03:59:30.537Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T03:59:30.542Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926  
+ 
+[debug] [2019-04-03T03:59:33.084Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/menaka/Final_Assignment'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-03T03:59:41.422Z] Fetching environment
+[debug] [2019-04-03T03:59:41.437Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436:getServerAppConfig  
+ 
+[debug] [2019-04-03T03:59:41.440Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436/clients/_:getWebAppConfig  
+ 
+[warn] ⚠  functions: Error from emulator. FirebaseError: Server Error. getaddrinfo ENOTFOUND mobilesdk-pa.googleapis.com mobilesdk-pa.googleapis.com:443
+[debug] [2019-04-03T03:59:51.483Z] Error
+    at new FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:9:18)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:30:31)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:197:13)
+    at Request.EventEmitter.emit (domain.js:439:20)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at ClientRequest.emit (events.js:197:13)
+    at ClientRequest.EventEmitter.emit (domain.js:439:20)
+    at TLSSocket.socketErrorListener (_http_client.js:399:9)
+    at TLSSocket.emit (events.js:197:13)
+[debug] [2019-04-03T03:59:54.711Z] Error: getaddrinfo ENOTFOUND mobilesdk-pa.googleapis.com mobilesdk-pa.googleapis.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND mobilesdk-pa.googleapis.com mobilesdk-pa.googleapis.com:443
+[debug] [2019-04-03T04:01:00.348Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T04:01:00.354Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-03T04:01:00.354Z] CLI Version:   6.5.0
+[debug] [2019-04-03T04:01:00.354Z] Platform:      linux
+[debug] [2019-04-03T04:01:00.354Z] Node Version:  v11.8.0
+[debug] [2019-04-03T04:01:00.355Z] Time:          Wed Apr 03 2019 09:31:00 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T04:01:00.355Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T04:01:00.371Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T04:01:00.372Z] > authorizing via signed-in user
+[debug] [2019-04-03T04:01:00.372Z] [iam] checking project final-assignment-ba926 for permissions ["firebase.projects.get"]
+[debug] [2019-04-03T04:01:00.375Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926:testIamPermissions  
+
+[debug] [2019-04-03T04:01:04.175Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T04:01:04.180Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926  
+ 
+[debug] [2019-04-03T04:01:05.887Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/menaka/Final_Assignment'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-03T04:01:07.204Z] Fetching environment
+[debug] [2019-04-03T04:01:07.211Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436:getServerAppConfig  
+ 
+[debug] [2019-04-03T04:01:07.213Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-03T04:01:08.012Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T04:01:08.013Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-03T04:01:08.116Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-03T04:01:12.706Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2019-04-03T04:47:41.277Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T04:47:41.283Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-04-03T04:47:41.284Z] CLI Version:   6.5.0
+[debug] [2019-04-03T04:47:41.284Z] Platform:      linux
+[debug] [2019-04-03T04:47:41.284Z] Node Version:  v11.8.0
+[debug] [2019-04-03T04:47:41.360Z] Time:          Wed Apr 03 2019 10:17:41 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T04:47:41.360Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T04:47:41.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T04:47:41.469Z] > authorizing via signed-in user
+[debug] [2019-04-03T04:47:41.470Z] [iam] checking project final-assignment-ba926 for permissions ["firebase.projects.get"]
+[debug] [2019-04-03T04:47:41.474Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-03T04:47:41.475Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-03T04:47:42.848Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T04:47:42.888Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926:testIamPermissions  
+
+[debug] [2019-04-03T04:47:48.676Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T04:47:48.681Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/final-assignment-ba926  
+ 
+[debug] [2019-04-03T04:47:51.877Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/menaka/Final_Assignment'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-03T04:47:57.593Z] Fetching environment
+[debug] [2019-04-03T04:47:57.621Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436:getServerAppConfig  
+ 
+[debug] [2019-04-03T04:47:57.623Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/621172657436/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-03T04:47:58.626Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T04:47:58.628Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-03T04:47:58.914Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-03T04:48:03.405Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.

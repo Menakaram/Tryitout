@@ -1,0 +1,12 @@
+{
+  "name": "Final_Assignment",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^3.2.0",
+    "polymerfire": "firebase/polymerfire#^2.2.1",
+    "paper-button": "PolymerElements/paper-button#^3.0.1"
+  }
+}
