@@ -1,0 +1,47 @@
+<head>
+  <base href="https://cdn.rawgit.com/download/polymer-cdn/1.8.0/lib/">
+  <script src="webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="polymerfire/polymerfire.html">
+  <link rel="import" href="paper-button/paper-button.html">
+</head>
+<body>
+  <x-foo></x-foo>
+
+  <dom-module id="x-foo">
+    <template>
+      <firebase-app name="blog"
+                    api-key="AIzaSyBH1f597ftlD9owFJ5fZnf1XYTMvg2u7k4"
+                    auth-domain="final-assignment-ba926.firebaseapp.com"
+                    database-url="https://final-assignment-ba926.firebaseio.com">
+      </firebase-app>
+
+      <firebase-auth id="auth"
+                     app-name="blog"
+                     provider="google"
+                     signed-in="{{signedIn}}"
+                     user="{{user}}">
+      </firebase-auth>
+
+      <template is="dom-if" if="[[user]]">
+        <h1>Welcome [[user.displayName]]</h1>
+      </template>
+
+      <paper-button raised on-tap="login" hidden$="[[user]]">Sign In</paper-button>
+      <paper-button raised on-tap="logout" hidden$="[[!user]]">Sign Out</paper-button>
+    </template>
+    <script>
+    HTMLImports.whenReady(() => {
+      Polymer({
+        is: 'x-foo',
+        login: function() {
+          return this.$.auth.signInWithPopup();
+        },
+        logout: function() {
+          return this.$.auth.signOut();
+        },
+      });
+    });
+    </script>
+  </dom-module>
+</body>
+
